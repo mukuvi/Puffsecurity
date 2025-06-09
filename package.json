@@ -1,6 +1,7 @@
 {
   "name": "puffadders-website",
   "version": "0.1.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -20,6 +21,5 @@
     "postcss": "^8.4.32",
     "tailwindcss": "^3.3.6",
     "vite": "^4.5.9"
-  },
-  "homepage": "."
+  }
 }
