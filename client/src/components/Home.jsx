@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Typed from "typed.js";
-import { FaLock, FaDatabase, FaCode, FaRocket, FaUsers, FaGithub, FaStar } from "react-icons/fa";
+import { FaLock, FaDatabase, FaCode, FaRocket, FaUsers, FaGithub, FaStar, FaArrowRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const services = [
   {
@@ -77,9 +78,9 @@ const Home = () => {
         <div className="relative z-10 max-w-6xl mx-auto text-center">
           {/* Main Heading */}
           <div className="mb-8">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 min-h-[1.2em]">
+            <div className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 h-24 md:h-32 flex items-center justify-center">
               <span className="gradient-text" ref={typedRef}></span>
-            </h1>
+            </div>
             <p className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
               Join a vibrant community of developers, security experts, and data scientists 
               working together to create innovative open source solutions.
@@ -88,12 +89,13 @@ const Home = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <button className="btn-primary text-lg px-8 py-4">
+            <Link to="/community" className="btn-primary text-lg px-8 py-4 inline-flex items-center justify-center group">
               Join Our Community
-            </button>
-            <button className="bg-transparent border-2 border-primary-500 text-primary-400 font-medium px-8 py-4 rounded-lg transition-all duration-300 hover:bg-primary-500 hover:text-white">
-              Explore Projects
-            </button>
+              <FaArrowRight className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
+            </Link>
+            <Link to="/blog" className="bg-transparent border-2 border-primary-500 text-primary-400 font-medium px-8 py-4 rounded-lg transition-all duration-300 hover:bg-primary-500 hover:text-white inline-flex items-center justify-center">
+              Read Our Blog
+            </Link>
           </div>
 
           {/* Stats Grid */}
@@ -168,12 +170,13 @@ const Home = () => {
               and building the future of technology together.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="btn-primary text-lg px-8 py-4">
-                Get Started Today
-              </button>
-              <button className="bg-transparent border-2 border-gray-500 text-gray-300 font-medium px-8 py-4 rounded-lg transition-all duration-300 hover:border-primary-500 hover:text-primary-400">
-                Learn More
-              </button>
+              <Link to="/joinus" className="btn-primary text-lg px-8 py-4 inline-flex items-center justify-center group">
+                Start Your Journey
+                <FaArrowRight className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
+              </Link>
+              <Link to="/donate" className="bg-transparent border-2 border-gray-500 text-gray-300 font-medium px-8 py-4 rounded-lg transition-all duration-300 hover:border-primary-500 hover:text-primary-400 inline-flex items-center justify-center">
+                Support Our Mission
+              </Link>
             </div>
           </div>
         </div>
