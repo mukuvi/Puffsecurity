@@ -26,7 +26,5 @@ Join thousands of developers who are already contributing to open source project
 
 - 👉 [Start Your Journey](https://github.com/puffadders)
 
----
-
 > _Together, we code. Together, we secure. Together, we innovate._  
 > — **Puffadders Community**
