@@ -1,14 +1,26 @@
 import React from "react";
-import { FaGithub, FaTelegram, FaDiscord, FaLinkedin, FaHeart } from "react-icons/fa";
+import { FaGithub, FaTelegram, FaDiscord, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  
+
   const socialLinks = [
-    { icon: <FaGithub />, url: "https://github.com/puffadders", label: "GitHub" },
+    {
+      icon: <FaGithub />,
+      url: "https://github.com/puffadders",
+      label: "GitHub",
+    },
     { icon: <FaTelegram />, url: "https://t.me/puffadders", label: "Telegram" },
-    { icon: <FaDiscord />, url: "https://discord.gg/xqUWHBAYN9", label: "Discord" },
-    { icon: <FaLinkedin />, url: "https://www.linkedin.com/company/puffadders/", label: "LinkedIn" },
+    {
+      icon: <FaDiscord />,
+      url: "https://discord.gg/xqUWHBAYN9",
+      label: "Discord",
+    },
+    {
+      icon: <FaLinkedin />,
+      url: "https://www.linkedin.com/company/puffadders/",
+      label: "LinkedIn",
+    },
   ];
 
   return (
@@ -34,9 +46,6 @@ const Footer = () => {
           {/* Copyright */}
           <div className="flex items-center space-x-2 text-gray-400 text-sm">
             <span>&copy; {currentYear} Puffadders Community.</span>
-            <span>Made with</span>
-            <FaHeart className="text-red-500 animate-pulse" />
-            <span>for the open source community.</span>
           </div>
         </div>
 

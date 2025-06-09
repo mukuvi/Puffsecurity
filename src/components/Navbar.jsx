@@ -22,9 +22,14 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-3 group">
-          <div className="h-12 w-12 rounded-full bg-gradient-to-r from-primary-500 to-secondary-500 flex items-center justify-center transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12">
-            <span className="text-white font-bold text-lg">P</span>
+          <div className="h-12 w-12 rounded-full bg-gradient-to-r from-primary-500 to-secondary-500 flex items-center justify-center transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12 overflow-hidden">
+            <img
+              src="/puffadder.jpg"
+              alt="Puff Adder"
+              className="w-full h-full object-cover"
+            />
           </div>
+
           <span className="text-xl font-bold gradient-text hidden sm:block">
             Puffadders
           </span>
@@ -37,9 +42,7 @@ const Navbar = () => {
               key={item.path}
               to={item.path}
               className={`nav-link ${
-                isActive(item.path) 
-                  ? "text-primary-400 bg-primary-500/20" 
-                  : ""
+                isActive(item.path) ? "text-primary-400 bg-primary-500/20" : ""
               }`}
             >
               {item.label}
@@ -57,9 +60,11 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Navigation */}
-      <div className={`md:hidden transition-all duration-300 overflow-hidden ${
-        isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-      }`}>
+      <div
+        className={`md:hidden transition-all duration-300 overflow-hidden ${
+          isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+        }`}
+      >
         <div className="pt-4 pb-2 space-y-2">
           {navItems.map((item) => (
             <Link
@@ -67,9 +72,7 @@ const Navbar = () => {
               to={item.path}
               onClick={() => setIsOpen(false)}
               className={`block nav-link ${
-                isActive(item.path) 
-                  ? "text-primary-400 bg-primary-500/20" 
-                  : ""
+                isActive(item.path) ? "text-primary-400 bg-primary-500/20" : ""
               }`}
             >
               {item.label}
