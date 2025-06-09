@@ -11,17 +11,28 @@ import Blog from "./components/Blog";
 import Store from "./components/Store";
 import JoinUs from "./components/JoinUs";
 import NotFound from "./components/NotFound";
+import ParticleBackground from "./components/ParticleBackground";
+import HackerTerminal from "./components/HackerTerminal";
+import MatrixRain from "./components/MatrixRain";
+import FloatingActionButton from "./components/FloatingActionButton";
 import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
+  const [terminalOpen, setTerminalOpen] = useState(false);
+  const [matrixActive, setMatrixActive] = useState(false);
 
   setTimeout(() => setLoading(false), 2000);
 
   return (
     <Router>
       {loading && <Loader />}
-      <div className="min-h-screen flex flex-col">
+      
+      {/* Background Effects */}
+      <ParticleBackground />
+      <MatrixRain isActive={matrixActive} />
+      
+      <div className="min-h-screen flex flex-col relative z-20">
         <Navbar />
         <main className="flex-grow">
           <Routes>
@@ -37,6 +48,19 @@ const App = () => {
         </main>
         <Footer />
       </div>
+
+      {/* Interactive Elements */}
+      <FloatingActionButton 
+        onTerminalOpen={() => setTerminalOpen(true)}
+        onMatrixToggle={() => setMatrixActive(!matrixActive)}
+        matrixActive={matrixActive}
+      />
+      
+      <HackerTerminal 
+        isOpen={terminalOpen} 
+        onClose={() => setTerminalOpen(false)} 
+      />
+
       <ToastContainer
         position="top-right"
         autoClose={3000}
