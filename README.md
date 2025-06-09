@@ -2,13 +2,9 @@
 
 Join a vibrant community of **developers**, **security experts**, and **data scientists** working together to create innovative **open source solutions**.
 
----
-
 ## 🚀 Join Us
 
 - [Join Our Community](https://github.com/puffadders)
-
----
 
 ## 💡 What We Do
 
@@ -23,8 +19,6 @@ Transforming raw data into actionable insights using advanced analytics and mach
 ### 💻 Software Development
 
 Building robust, scalable applications with modern technologies and best practices.
-
----
 
 ## 🌍 Ready to Make an Impact?
 
