@@ -308,9 +308,7 @@ const Donate = () => {
             open source!
           </p>
           <div className="flex items-center justify-center mt-6 text-red-500">
-            <FaHeart className="animate-pulse mr-2" />
             <span className="text-white">Made by the Puffadders community</span>
-            <FaHeart className="animate-pulse ml-2" />
           </div>
         </div>
       </div>
