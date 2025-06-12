@@ -84,10 +84,10 @@ const paymentMethods = [
 ];
 
 const impactStats = [
-  { number: "50+", label: "Open Source Projects", icon: <FaCode /> },
-  { number: "500+", label: "Community Members", icon: <FaUsers /> },
+  { number: "40+", label: "Open Source Projects", icon: <FaCode /> },
+  { number: "50+", label: "Community Members", icon: <FaUsers /> },
   { number: "1000+", label: "Hours of Free Content", icon: <FaCoffee /> },
-  { number: "100+", label: "Contributors Helped", icon: <FaHeart /> },
+  { number: "80+", label: "Contributors Helped", icon: <FaHeart /> },
 ];
 
 const Donate = () => {
