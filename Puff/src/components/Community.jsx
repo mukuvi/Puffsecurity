@@ -22,7 +22,7 @@ const socialLinks = [
     icon: <FaDiscord className="text-6xl" />,
     name: "Discord",
     description: "Connect with the community",
-    url: "https://discord.gg/xqUWHBAYN9",
+    url: "https://discord.gg/SdnKjuN2Ny",
     color: "hover:text-indigo-400",
     bgColor: "hover:bg-indigo-500/20",
   },
@@ -55,7 +55,7 @@ const Community = () => {
             Hack Like There's No Tomorrow!
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-            Connect with like-minded developers, contribute to open source projects, 
+            Connect with like-minded developers, contribute to open source projects 
             and be part of a community that's shaping the future of technology.
           </p>
         </div>
