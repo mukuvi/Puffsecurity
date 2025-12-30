@@ -275,7 +275,7 @@ const Donate = () => {
                 Education & Training
               </h3>
               <p className="text-gray-300 leading-relaxed">
-                Create free courses, workshops, and mentorship programs to help
+                Create free courses, workshops and mentorship programs to help
                 developers grow their skills.
               </p>
             </div>
@@ -285,7 +285,7 @@ const Donate = () => {
                 Community Events
               </h3>
               <p className="text-gray-300 leading-relaxed">
-                Organize hackathons, conferences, and meetups that bring the
+                Organize hackathons, conferences and meetups that bring the
                 community together and foster collaboration.
               </p>
             </div>
