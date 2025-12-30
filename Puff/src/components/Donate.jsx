@@ -265,7 +265,7 @@ const Donate = () => {
                 Project Development
               </h3>
               <p className="text-gray-300 leading-relaxed">
-                Fund the development of new tools, libraries, and educational
+                Fund the development of new tools, libraries and educational
                 resources that benefit the entire community.
               </p>
             </div>
