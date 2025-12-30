@@ -54,7 +54,7 @@ const Blog = () => {
             Tech Insights & Stories
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            Discover the latest trends, tutorials, and insights from the world of technology, cybersecurity, and software development.
+            Discover the latest trends, tutorials and insights from the world of technology, cybersecurity and software development.
           </p>
         </div>
 

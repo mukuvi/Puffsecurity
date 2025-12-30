@@ -96,13 +96,13 @@ const Community = () => {
             <div>
               <h4 className="text-lg font-semibold text-primary-400 mb-2">Learn & Grow</h4>
               <p className="text-gray-300 text-sm">
-                Access to learning resources, mentorship, and collaborative projects.
+                Access to learning resources, mentorship and collaborative projects.
               </p>
             </div>
             <div>
               <h4 className="text-lg font-semibold text-secondary-400 mb-2">Network</h4>
               <p className="text-gray-300 text-sm">
-                Connect with professionals from cybersecurity, data science, and development.
+                Connect with professionals from cybersecurity, data science and development.
               </p>
             </div>
             <div>

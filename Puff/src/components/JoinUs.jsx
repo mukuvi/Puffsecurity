@@ -6,7 +6,7 @@ const fields = [
     id: "cybersecurity",
     title: "Cybersecurity",
     icon: <FaLock className="text-4xl text-red-400" />,
-    description: "Protecting systems, networks, and programs from digital attacks. Learn ethical hacking, penetration testing, and security analysis.",
+    description: "Protecting systems, networks and programs from digital attacks. Learn ethical hacking, penetration testing and security analysis.",
     skills: ["Ethical Hacking", "Penetration Testing", "Network Security", "Malware Analysis", "Incident Response"],
     gradient: "from-red-500 to-pink-500",
     discordLink: "https://discord.gg/SdnKjuN2Ny"
