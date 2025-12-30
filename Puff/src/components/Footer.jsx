@@ -13,7 +13,7 @@ const Footer = () => {
     { icon: <FaTelegram />, url: "https://t.me/puffadders", label: "Telegram" },
     {
       icon: <FaDiscord />,
-      url: "https://discord.com/invite/SdnKjuN2Ny",
+      url: "https://discord.gg/SdnKjuN2Ny",
       label: "Discord",
     },
     {
