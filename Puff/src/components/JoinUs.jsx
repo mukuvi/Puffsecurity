@@ -15,7 +15,7 @@ const fields = [
     id: "development",
     title: "Software Development",
     icon: <FaCode className="text-4xl text-purple-400" />,
-    description: "Designing, coding, and maintaining software applications. Master modern frameworks and development practices.",
+    description: "Designing, coding and maintaining software applications. Master modern frameworks and development practices.",
     skills: ["Web Development", "Mobile Apps", "Backend Systems", "DevOps", "Open Source"],
     gradient: "from-purple-500 to-indigo-500",
     discordLink: "https://discord.com/invite/KgygxrfGNH"
@@ -24,7 +24,7 @@ const fields = [
     id: "datascience",
     title: "Data Science",
     icon: <FaDatabase className="text-4xl text-blue-400" />,
-    description: "Analyzing and interpreting complex data to help inform decision-making. Work with AI, ML, and big data technologies.",
+    description: "Analyzing and interpreting complex data to help inform decision-making. Work with AI, ML and big data technologies.",
     skills: ["Machine Learning", "Data Analysis", "AI Development", "Statistical Modeling", "Data Visualization"],
     gradient: "from-blue-500 to-cyan-500",
     discordLink: "https://discord.com/invite/KgygxrfGNH"
