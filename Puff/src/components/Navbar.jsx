@@ -24,7 +24,7 @@ const Navbar = () => {
         <Link to="/" className="flex items-center space-x-3 group">
           <div className="h-12 w-12 rounded-full bg-gradient-to-r from-primary-500 to-secondary-500 flex items-center justify-center transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12 overflow-hidden">
             <img
-              src="/puffadder.jpg"
+              src="/puffadder.png"
               alt="Puff Adder"
               className="w-full h-full object-cover"
             />
