@@ -82,7 +82,7 @@ const Home = () => {
               <span className="gradient-text" ref={typedRef}></span>
             </div>
             <p className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-              Join a vibrant community of developers, security experts, and data scientists 
+              Join a vibrant community of developers, security experts and data scientists 
               working together to create innovative open source solutions.
             </p>
           </div>
